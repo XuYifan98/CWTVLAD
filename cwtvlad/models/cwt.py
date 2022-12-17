@@ -80,7 +80,7 @@ class Attention(nn.Module):
         rho = torch.exp(- dist_norm/ (self.k))
         weights = (1 - rho) / (1 - rho).sum(dim=1).unsqueeze(-1)
         weights = (weights - weights.min(dim=1).values.unsqueeze(-1)) / (weights.max(dim=1).values - weights.min(dim=1).values).unsqueeze(-1)
-        mixed_value_layer = torch.mul(mixed_value_layer, weights.unsqueeze(-1))
+        mixed_value_layer = torch.mul(mixed_value_layer, 0.5 + weights.unsqueeze(-1))
         return mixed_value_layer
 
     def forward(self, hidden_states):

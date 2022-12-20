@@ -15,7 +15,7 @@ In addition, need to install KNN_CUDA from wheel.
 pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
 ```
 
-The networks is VGG-16/MobileNetV3-Large + CWTVLAD, trained on Pitts30k dataset. The dimension of the global descriptor is 4096.
+The network is VGG-16/MobileNetV3-Large + CWTVLAD, trained on Pitts30k dataset. The dimension of the global descriptor is 4096.
 
 
 

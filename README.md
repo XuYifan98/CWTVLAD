@@ -17,7 +17,7 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 
 The network is VGG-16/MobileNetV3-Large + CWTVLAD, trained on Pitts30k dataset. The dimension of the global descriptor is 4096.
 
-
+![image](https://github.com/XuYifan98/CWTVLAD/blob/main/figs/cwtvlad_qualitative%20results.png)
 
 
 ## Preparation

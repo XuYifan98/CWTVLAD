@@ -19,7 +19,7 @@ The network is VGG-16/MobileNetV3-Large + CWTVLAD, trained on Pitts30k dataset. 
 
 ![image](https://github.com/XuYifan98/CWTVLAD/blob/main/figs/cwtvlad_quantitative%20results.png)
 
-From the above table, we can see that our method outperforms other baseline methods on most of the benchmarks. You can get some ideas of why our trained networks perform better from the following figure:
+From the above table, we can see that our method outperforms other baseline methods on most of the benchmarks with lower complexity. You can get some ideas of why our trained networks perform better from the following figure:
 
 ![image](https://github.com/XuYifan98/CWTVLAD/blob/main/figs/cwtvlad_qualitative%20results.png)
 

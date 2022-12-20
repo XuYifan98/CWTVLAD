@@ -1,5 +1,7 @@
 # CWTVLAD for Visual Place Recognition
 
+![image](https://github.com/XuYifan98/CWTVLAD/blob/main/figs/VPR_Task.png)
+
 ## Introduction
 `CWTVLAD` is a PyTorch implementation for our TMM paper "CWTVLAD: Multi-Scale Clustering-based ...". It is an open-source codebase for visual place recognition.
 
